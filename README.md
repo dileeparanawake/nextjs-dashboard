@@ -1,8 +1,8 @@
-## Next.js App Router Course - Starter
+## Project Objectives
 
-This is the starter template for the Next.js App Router Course. It contains the starting code for the dashboard application.
+Learn the basics of nextjs by making a dashboard application.
 
-For more information, see the [course curriculum](https://nextjs.org/learn) on the Next.js Website.
+![Project Screen Shot](./Dashboard.png)
 
 ---
 
@@ -11,15 +11,18 @@ For more information, see the [course curriculum](https://nextjs.org/learn) on t
 This project includes a `docker-compose.yml` for easy local development.
 
 ### Start the app and database
+
 ```sh
 docker-compose up --build
 ```
+
 - App: http://localhost:3000
 - Database: localhost:5432 (user: postgres, password: postgres)
 
 ### Reset the database (wipe all data)
+
 ```sh
 docker-compose down -v && docker-compose up --build
 ```
-This will remove all data and start fresh.
 
+This will remove all data and start fresh.
